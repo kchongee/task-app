@@ -64,3 +64,11 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Steps to run the application
+
+1. start the apache and MySQL on the XAMPP application
+2. head to the application folder and open cmd to enter the command 'php artisan serve'
+3. open another cmd and run 'npm run dev' to run the tailwindcss
+4. open another cmd again and run 'php artisan migrate' to create the databases
+5. appliction is now host on the localhost:8000
